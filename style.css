@@ -1,10 +1,11 @@
-li{
-margin-right: 250px;
-margin-top:50px;
+body{
+background-color: #C0C0C0;
 }
 
-.navbar-brand{
-margin-bottom: 70pt;	
+
+li{
+margin-right: 220px;
+margin-top:27px;
 }
 
 table {
@@ -15,18 +16,30 @@ th{
 text-align: center;
 }
 
-h2{
-text-align: center;
-text-decoration: underline;
-color: green;
-margin-bottom: 70pt;	
-}
-
 img{
-margin-top: 15pt;
+margin-top:10pt;
+margin-right: 150pt;
 }
 
+#navbar{
+background-color: #FFF0F5;
+margin-bottom: 100pt;
+}
 
+a{
+font-style: italic;
+color: #FFFAF0;
+border-style: double;
+border-color: #778899;
+}
+
+.container{
+color :black;
+}
+
+button{
+margin-top: 50pt;
+}
 
 
 
