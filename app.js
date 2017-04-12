@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+	$('#button').click(function(){
+		Peuple();
+		AjouterTh();
+		tableaupeuple();
+	});  
+
+
 var groupe = [];
 var random;
 var peuple = 0;
@@ -39,13 +46,20 @@ var tableaupeuple = function(){
 };
 
 	
-	$('#button').click(function(){
-		Peuple();
-		AjouterTh();
-		tableaupeuple();
-	});  
-
-	
 }); 
+	
+     
+    $.ajax({
+       url : 'http://192.168.1.131:3000/name',
+
+       success: function(data){
+       	console.log(data);
+       	console.log('success');
+       },
+
+       error: function(err){
+       	console.log('error');
+       },
+    });
 
     
